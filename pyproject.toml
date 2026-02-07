@@ -1,0 +1,18 @@
+[project]
+name = "hecm"
+version = "0.1.0"
+description = "Holographic Entangled Coherence Model (HECM)"
+authors = [{ name = "Steve" }]
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = ["pytest", "flake8", "mypy", "black", "coverage"]
+
+[tool.black]
+line-length = 88
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.flake8]
+max-line-length = 88
