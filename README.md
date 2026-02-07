@@ -59,6 +59,28 @@ In this progression:
 - **v0.2.0** turns the mesh into fabric.  
 - **v0.3.0** lets the fabric behave like a suit.  
 - **v1.0.0** describes how the suit keeps its shape over time.
+## Version Roadmap
+
+### v0.1.0 — Coherence Layer (mesh)
+- Field representation
+- Local coherence operator
+- Emergence of grain
+
+### v0.2.0 — Entanglement Layer (fabric)
+- Introduction of information beams
+- qf_entangle_beam operator
+- Shared grain across fields
+- Example script demonstrating pairwise entanglement
+
+### v0.3.0 — Population Layer (form)
+- Beam networks
+- Multi-field dynamics
+- Global constraints
+
+### v1.0.0 — Attractor Layer (identity)
+- Population-level attractors
+- Attractor basins
+- Identity-preserving evolution
 
 ---
 
