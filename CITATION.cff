@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Holographic Entangled Coherence Model (HECM)"
+message: "If you use this software, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: Thomas
+    given-names: Harry Steven
+    alias: Steve
+repository-code: "https://github.com/dirtyharry1951/HECM"
+license: MIT
+version: "0.1.0"
+date-released: "2026-02-07"
+keywords:
+  - coherence
+  - entanglement
+  - dynamical systems
+  - computational modeling
+  - HECM

@@ -2,27 +2,39 @@
 
 
 
-This repository contains the reference implementation of the Holographic Entangled Coherence Model (HECM), including:
+The Holographic Entangled Coherence Model (HECM) is a research framework for
+
+modeling coherence, entanglement, and population-level dynamics in complex
+
+systems. This repository provides the reference Python implementation, including
+
+core operators, tests, documentation, and example simulations.
 
 
 
-\- core mathematical operators  
-
-\- coherence and resonance metrics  
-
-\- population dynamics  
-
-\- simulation tools  
-
-\- documentation and examples  
+\## Features
 
 
 
-This is the canonical home for the model and its evolving research program.
+\- Core coherence operators (real and complex fields)
+
+\- Extensible operator architecture
+
+\- Clean Python package layout (`src/hecm`)
+
+\- Full pytest suite
+
+\- Ready for Zenodo archival and DOI assignment
+
+\- MIT-licensed for open scientific use
 
 
 
-\## Repository Structure
+\## Installation
+
+
+
+Install in editable mode for development:
 
 
 
