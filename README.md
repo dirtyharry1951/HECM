@@ -1,4 +1,3 @@
-```
 # Holographic Entangled Coherence Model (HECM)
 
 The Holographic Entangled Coherence Model (HECM) is a layered, generative framework for understanding how stable patterns (grain) emerge, propagate, and consolidate into global identity across interacting fields.
@@ -6,38 +5,43 @@ The Holographic Entangled Coherence Model (HECM) is a layered, generative framew
 HECM is built as a **single trunk**, not a branching architecture.  
 Each version thickens the model without forking it:
 
-- v0.1.0 — Coherence (mesh)
-- v0.2.0 — Entanglement (fabric)
-- v0.3.0 — Population (form)
+- v0.1.0 — Coherence (mesh)  
+- v0.2.0 — Entanglement (fabric)  
+- v0.3.0 — Population (form)  
 - v1.0.0 — Attractors (identity)
 
 This repository contains:
-- reference implementation code
-- conceptual documentation
-- example scripts
-- release notes
+- reference implementation code  
+- conceptual documentation  
+- example scripts  
+- release notes  
 - the evolving architecture of the model
 
 ---
+## Version Roadmap
 
-## Overview
+### v0.1.0 — Coherence Layer (mesh)
+- Field representation  
+- Local coherence operator  
+- Emergence of grain  
+Documentation: docs/architecture/coherence.md
 
-HECM is built on four conceptual layers:
+### v0.2.0 — Entanglement Layer (fabric)
+- Introduction of information beams  
+- qf_entangle_beam operator  
+- Shared grain across fields  
+- Example script demonstrating pairwise entanglement  
+Documentation: docs/architecture/entanglement.md  
+Release notes: docs/architecture/v0.2.0-release-notes.md
 
-1. **Coherence** — local stability and grain formation  
-2. **Entanglement** — pairwise grain sharing via beams  
-3. **Population** — networked grain propagation and emergent form  
-4. **Attractors** — global identity and basin dynamics  
+### v0.3.0 — Population Layer (form)
+- Beam networks  
+- Multi-field dynamics  
+- Weighted adjacency matrices  
+- Optional global constraints  
+- Example script demonstrating network-level grain propagation  
+Documentation: docs/architecture/population.md  ## Repository Structure
 
-Each layer contains the previous one.  
-Nothing is replaced.  
-Everything is thickened.
-
----
-
-## Repository Structure
-
-```
 HECM/
   qf_entangle_beam.py
   qf_population_update.py
@@ -55,72 +59,19 @@ HECM/
       v0.3.0-release-notes.md
   src/
     hecm/
-      __init__.py
-      core.py
-  tests/
-    test_coherence.py
-    test_imports.py
-  README.md
-  LICENSE
-  CITATION.cff
-  pyproject.toml
-
----
-
-## Version Roadmap
-
-### **v0.1.0 — Coherence Layer (mesh)**
-- Field representation  
-- Local coherence operator  
-- Emergence of grain  
-Documentation: `docs/architecture/coherence.md`
-
-### **v0.2.0 — Entanglement Layer (fabric)**
-- Introduction of information beams  
-- `qf_entangle_beam` operator  
-- Shared grain across fields  
-- Example script demonstrating pairwise entanglement  
-Documentation: `docs/architecture/entanglement.md`  
-Release notes: `docs/architecture/v0.2.0-release-notes.md`
-
-### **v0.3.0 — Population Layer (form)**
-- Beam networks  
-- Multi-field dynamics  
-- Weighted adjacency matrices  
-- Optional global constraints  
-- Example script demonstrating network-level grain propagation  
-Documentation: `docs/architecture/population.md`  
-Release notes: `docs/architecture/v0.3.0-release-notes.md`
-
-### **v1.0.0 — Attractor Layer (identity)**
-- Population-level attractors  
-- Attractor basins  
-- Identity-preserving evolution  
-Documentation: `docs/architecture/attractors.md`
-
----
-
-## Code Examples
+      __init__.py## Code Examples
 
 ### Pairwise Entanglement
-```
 python examples/entangle_two_fields.py
-```
 
 ### Population Network Update
-```
 python examples/population_network_demo.py
-```
 
----
-
-## Documentation
+---## Documentation
 
 All conceptual documentation is located in:
 
-```
 docs/architecture/
-```
 
 Including:
 - coherence layer  
@@ -132,13 +83,36 @@ Including:
 
 ---
 
-## Citation
 
-If you use HECM in research, please cite using the `CITATION.cff` file.
+      core.py
+  tests/
+    test_coherence.py
+    test_imports.py
+  README.md
+  LICENSE
+  CITATION.cff
+  pyproject.toml
+
+Release notes: docs/architecture/v0.3.0-release-notes.md
+
+### v1.0.0 — Attractor Layer (identity)
+- Population-level attractors  ## Citation
+
+If you use HECM in research, please cite using the CITATION.cff file.
 
 ---
+---
+
+Thank you for exploring the Holographic Entangled Coherence Model (HECM).  
+This repository will continue to evolve as the model thickens through future versions and research contributions.
+
 
 ## License
 
-MIT License. See `LICENSE` for details.
-```
+MIT License. See the LICENSE file for details.
+
+- Attractor basins  
+- Identity-preserving evolution  
+Documentation: docs/architecture/attractors.md
+
+---
