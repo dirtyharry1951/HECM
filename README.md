@@ -97,10 +97,15 @@ Release notes: docs/architecture/v0.3.0-release-notes.md
 
 ### v1.0.0 — Attractor Layer (identity)
 - Population-level attractors  ## Citation
+- Attractor basins  
+- Identity-preserving evolution  
+Documentation: docs/architecture/attractors.md
+
+
+---
 
 If you use HECM in research, please cite using the CITATION.cff file.
 
----
 ---
 
 Thank you for exploring the Holographic Entangled Coherence Model (HECM).  
@@ -111,8 +116,5 @@ This repository will continue to evolve as the model thickens through future ver
 
 MIT License. See the LICENSE file for details.
 
-- Attractor basins  
-- Identity-preserving evolution  
-Documentation: docs/architecture/attractors.md
 
 ---
